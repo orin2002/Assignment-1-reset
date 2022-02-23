@@ -1,0 +1,139 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.main-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+/* ====================common css ================ */
+.flexible-layout{
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    align-content: center;
+}
+.half-width{
+    width: 50%;
+    padding:40px 40px ;
+}
+.half-width img{
+    width: 80%;
+}
+.third-width{
+    width: 33%;
+    padding:10px 10px;
+    margin-right: 20px;
+}
+.third-width img{
+    width: 40%;
+}
+.third-width{
+    border-radius: 10px;
+    background-color: yellowgreen;
+    padding: 10px 20px ;
+}
+/* =================common css end ================== */
+.half-width h1{
+    font-size: 50px;
+
+}
+.half-width .mission-main{
+    border-left: 5px solid rgba(38, 152, 218, 0.904);
+}
+.half-width p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.mission-text{
+    color: yellowgreen;
+    
+}
+.gradient-btn{
+    background-color: rgba(255, 38, 0, 0.883);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.scroll-more{
+    margin-top: 50px;
+}
+/* ==============mission section starts from here ================== */
+.mission-section h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+.mission-bg-first{
+    background-color: rgba(238, 130, 238, 0.507);
+}
+.mission-bg-second{
+    background-color: rgba(130, 186, 238, 0.507);
+}
+.mission-bg-third{
+    background-color: rgba(238, 206, 130, 0.507);
+}
+/*============== experience section  ============*/
+.experience h1{
+font-size: 50px;
+color: rgba(104, 104, 241, 0.876);
+text-align: center;
+}
+.exp-area{
+    background-image: url(../images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+   
+}
+.exp-width{
+    width: 40%;
+    box-shadow: 10px 10px 10px gray;
+    margin-left: 5%;
+    padding: 20px ;
+
+}
+#br-st{
+    border-left: 7px solid;
+    border-image: linear-gradient( lightsalmon, tomato);
+    border-image-slice: 1;
+ 
+    
+}
+
+#br-sec{
+    border-left: 7px solid ;
+    border-image: linear-gradient(cyan , blue);
+    border-image-slice: 1;
+}
+ #br-sec h2{
+    font-size: 40px;
+}
+#br-st h2{
+    font-size: 40px;
+}
+/*========================= footer======================= */
+footer{
+    background-color: black;
+
+}
+footer h1{
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  padding: 20px 0px ;
+
+}
+footer p{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0px ;
+
+}
+.footer-text{
+    color: rgba(226, 116, 43, 0.863);
+}
